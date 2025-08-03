@@ -23,7 +23,7 @@ function Dashboard(){
  },[]);
 
    if(!intern){
-    return <p>Loading intern...</p>
+      return <div className="spinner"></div>;
    };
 
     return(
